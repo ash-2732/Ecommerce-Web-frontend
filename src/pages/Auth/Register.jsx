@@ -1,4 +1,3 @@
-import React from "react";
 import Layout from "../../components/Layout/Layout";
 import { useState } from "react";
 import toast from 'react-hot-toast'
@@ -21,7 +20,7 @@ function Register() {
   // form function
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(name , email, password, phone, address)
+        //console.log(name , email, password, phone, address)
         try {
             const res = await axios.post(`${import.meta.env.VITE_APP_SERVER_HOST}/api/v1/auth/register`, {
                 name,

@@ -88,3 +88,9 @@
     align-items: center;
     justify-content: center;
   }
+
+  /* for showing all product in productList Page */
+.product-link{
+    text-decoration: none;
+    color: black; 
+}
